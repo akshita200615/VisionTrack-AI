@@ -49,7 +49,7 @@ function App() {
   useEffect(() => {
     const fetchStats = async () => {
       try {
-        const response = await fetch("http://127.0.0.1:8000/stats");
+        const response = await fetch("https://visiontrack-ai-hykq.onrender.com");
 
         if (!response.ok) {
           throw new Error("API error");
@@ -131,7 +131,7 @@ function App() {
     const fetchSpeedAlerts = async () => {
       try {
         const response = await fetch(
-          "http://127.0.0.1:8000/speed-alerts"
+          "https://visiontrack-ai-hykq.onrender.com"
         );
 
         if (!response.ok) {
@@ -184,7 +184,7 @@ function App() {
       setSpeedLimitMessage("");
 
       const response = await fetch(
-        "http://127.0.0.1:8000/update-speed-limit",
+        "https://visiontrack-ai-hykq.onrender.com",
         {
           method: "POST",
           headers: {
