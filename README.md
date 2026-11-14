@@ -176,3 +176,12 @@ GitHub: [akshita200615](https://github.com/akshita200615)
 ---
 
 *VisionTrack AI – Smarter Traffic Monitoring Through Artificial Intelligence.*
+## Project Screenshots
+
+### Traffic Analytics Dashboard
+
+![VisionTrack AI Dashboard](screenshots/dashboard.png)
+
+### Live Overspeed Monitoring
+
+![VisionTrack AI Overspeed Monitoring](screenshots/overspeed-alerts.png)
