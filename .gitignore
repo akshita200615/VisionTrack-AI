@@ -1,0 +1,45 @@
+# Python virtual environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Node modules
+node_modules/
+frontend/node_modules/
+
+# Build files
+frontend/dist/
+dist/
+build/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Model weights
+*.pt
+*.onnx
+
+# Generated outputs
+outputs/*
+!outputs/.gitkeep
+
+# Dataset videos
+frontend/public/*.mp4
+datasets/*.mp4
+datasets/*.avi
+
+# Logs
+*.log
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
